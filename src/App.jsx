@@ -40,7 +40,7 @@ function ChildTldraw() {
       context.drawImage(img, 0, 0, width, height);
 
       const pngUrl = canvas.toDataURL("image/png");
-      console.log(pngUrl);
+      // console.log(pngUrl);
       downloadImage(pngUrl);
     };
   };
