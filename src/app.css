@@ -9,9 +9,21 @@
     color: tomato;
     font-size: 16px;
     font-weight: 600;
+    width: auto;
 }
 .btn:hover{
     background: tomato;
     color: aqua;
     font-weight: 300;
+}
+@media screen and (max-width: 600px) {
+    .btn{
+        /* position: absolute; */
+        top: 10px;
+        font-size: 10px;
+        font-weight: 100;
+        /* width: auto; */
+        height:30px;
+        /* left: 70%; */
+    }
 }
