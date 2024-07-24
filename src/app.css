@@ -18,12 +18,9 @@
 }
 @media screen and (max-width: 600px) {
     .btn{
-        /* position: absolute; */
         top: 10px;
         font-size: 10px;
-        /* font-weight: 100; */
-        /* width: auto; */
         height:30px;
-        /* left: 70%; */
+        right: 10px;
     }
 }
